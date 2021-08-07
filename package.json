@@ -1,0 +1,27 @@
+{
+  "name": "blockfetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-laboratories-au/blockFetcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hash-laboratories-au/blockFetcher/issues"
+  },
+  "homepage": "https://github.com/hash-laboratories-au/blockFetcher#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bytes": "^3.1.0",
+    "patch-package": "^6.4.7",
+    "path": "^0.12.7",
+    "web3": "^1.3.6"
+  }
+}
